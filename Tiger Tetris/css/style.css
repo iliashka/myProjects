@@ -1,0 +1,163 @@
+* {
+    margin: 0%;
+    font-family: sans-serif;
+}
+
+html, body {
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+body {
+    background: url(../images/Survive-in-The-Jungle.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    max-width: 968px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+
+header h1 {
+    background: rgba(255, 255, 255, .7);
+    padding: 20px 0;
+    border-radius: 15px;
+    
+}
+
+main {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+.block {
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+}
+
+.tetris-wrap {
+    width: 300px;
+    height: 480px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, .7);
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.text-field {
+    background: rgba(255, 255, 255, .7);
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 15px;
+
+}
+
+.start {
+    border: 2px solid #003000;
+    border-radius: 25px;
+    background-color: #fff;
+    display: block;
+    width: 50%;
+    padding: 20px 30px;
+    margin: 0 auto;
+    background-image: url(../images/icon-button.svg);
+    background-repeat: no-repeat;
+    background-position: 10% 50%;
+    cursor: pointer;
+}
+
+.rule {
+    margin-top: 30px;
+}
+
+.score-field {
+    font-size: 42px;
+    padding: 30px 0;
+}
+
+#tetris-field {
+    width: 270px;
+    height: 450px;
+    margin: 15px 15px;
+}
+
+.white {
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 100%;
+    float: left;
+}
+
+.orange {
+    width: 30px;
+    height: 30px;
+    background-color: orange;
+    border-radius: 100%;
+    float: left;
+}
+
+.airbus {
+    width: 30px;
+    height: 30px;
+    background-color: #48a9c5;
+    border-radius: 100%;
+    float: left;
+}
+
+.airbus2 {
+    width: 30px;
+    height: 30px;
+    background-color: #fe5000;
+    border-radius: 100%;
+    float: left;
+}
+
+.alcon {
+    width: 30px;
+    height: 30px;
+    background-color: #49a942;
+    border-radius: 100%;
+    float: left;
+}
+
+.algonia {
+    width: 30px;
+    height: 30px;
+    background-color: #8e43e7;
+    border-radius: 100%;
+    float: left;
+}
+
+
